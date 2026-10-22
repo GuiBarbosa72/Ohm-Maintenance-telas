@@ -1,0 +1,25 @@
+.btn {
+  display: inline-block;
+  padding: 10px 36px;
+  font-family: var(--font-button);
+  font-size: var(--fs-button);
+  line-height: 1.2;
+  color: var(--color-white);
+  background: transparent;
+  border: 1px solid var(--color-white);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  color: var(--color-black);
+  background: var(--color-foreground);
+  border-color: var(--color-foreground);
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--color-white);
+  outline-offset: 3px;
+}
