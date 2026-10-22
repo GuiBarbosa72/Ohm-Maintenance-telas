@@ -1,0 +1,30 @@
+:root {
+  /* ===== Cores (style guide) ===== */
+  --color-brand: #003b6f;
+  --color-foreground: #f5b700;
+  --color-gray: #9ca3af;
+  --color-gray-dark: #747474;
+  --color-black: #000000;
+  --color-blue: #05213f;
+  --color-white: #ffffff;
+
+  /* ===== Famílias tipográficas ===== */
+  --font-heading: "Squada One", system-ui, sans-serif;
+  --font-button: "Michroma", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+
+  /* ===== Escala tipográfica ===== */
+  --fs-h1: 4rem;        /* 64px */
+  --fs-h2: 3rem;        /* 48px */
+  --fs-h3: 2.5rem;      /* 40px */
+  --fs-h4: 2.1875rem;   /* 35px */
+  --fs-h5: 2rem;        /* 32px */
+  --fs-button: 1rem;    /* 16px */
+  --fs-body: 1.25rem;   /* 20px */
+  --fs-caption: 0.875rem; /* 14px */
+
+  /* ===== Outros ===== */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+}
